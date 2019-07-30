@@ -15,20 +15,22 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/')
+WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
 
-WebUI.setText(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 'ines.peguicha.dev')
+WebUI.setText(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 'laura.fidalgo.dev')
 
 WebUI.setEncryptedText(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    'aeHFOx8jV/A=')
+    'Y1Nh4jfnDFCge6QYsO1dtg==')
 
 WebUI.click(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
 WebUI.click(findTestObject('Page_HomePage/div_Time SheetsSubmit and review the time your team members are allocating to each project'))
 
-WebUI.click(findTestObject('Page_MyTimeSheet/span_Approve Time Sheets_fa fa-fw fa-check-circle'))
+WebUI.click(findTestObject('Page_MyTimeSheet/a_Approve Time Sheets'))
 
-WebUI.click(findTestObject('Object Repository/Repository_ApproveTimeSheet/Page_ListOfEmployeesToApproveTS/div_Pedro Paulino'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository_ApproveTS/Page_ListOfEmployeesToApproveTS/div_Ins (DEV Test)'))
 
-WebUI.click(findTestObject('Object Repository/Repository_ApproveTimeSheet/Page_ListOfEmployeesToApproveTS/input_Total 40 hours'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository_ApproveTS/Page_ListOfEmployeesToApproveTS/input_Total 39 hours_ITUpTheme'))
+
+WebUI.closeBrowser()
 

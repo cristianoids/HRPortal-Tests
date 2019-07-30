@@ -26,29 +26,29 @@ WebUI.click(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11bloc
 
 WebUI.click(findTestObject('Page_HomePage/div_Time SheetsSubmit and review the time your team members are allocating to each project'))
 
-WebUI.click(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/a_'))
+WebUI.click(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/a_'))
 
-WebUI.click(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/span_Sun11_fa fa-fw fa-times'))
+WebUI.click(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/span_Sun11_fa fa-fw fa-times'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/select_-AbsenceHolidaysOff-sickParental'), 
+WebUI.selectOptionByValue(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/select_-AbsenceHolidaysOff-sickParental'), 
     '1687', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/select'), 'da69acaf-e56f-4028-b703-d824ab047ae6', 
+WebUI.selectOptionByValue(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/select'), 'da69acaf-e56f-4028-b703-d824ab047ae6', 
     true)
 
-WebUI.click(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/div_HolidayVacationWeekend'))
+WebUI.click(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/div_HolidayVacationWeekend'))
 
-WebUI.setText(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/input_Development_ITUpTheme'), '8')
+WebUI.setText(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/input_Development_ITUpTheme'), '8')
 
-WebUI.setText(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/input_Weekend_ITUpTheme (3)'), '8')
+WebUI.setText(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/input_Weekend_ITUpTheme (3)'), '8')
 
-WebUI.setText(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/input_Weekend_ITUpTheme'), '8')
+WebUI.setText(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/input_Weekend_ITUpTheme'), '8')
 
-WebUI.setText(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/input_Weekend_ITUpTheme'), '8')
+WebUI.setText(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/input_Weekend_ITUpTheme'), '8')
 
-WebUI.click(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/span'))
+WebUI.click(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/span'))
 
-WebUI.setText(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/input_Weekend_ITUpTheme'), '8')
+WebUI.setText(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/input_Weekend_ITUpTheme'), '8')
 
-WebUI.click(findTestObject('Object Repository/Repository_MyTimeSheet/Page_MyTimeSheet/input_Add Project_ITUpTheme_wt17blockwtMainContentwt7wtSubmitButton'))
+WebUI.click(findTestObject('Repository_TimeSheet/Repository_MyTimeSheet/Page_MyTimeSheet/input_Add Project_ITUpTheme_wt17blockwtMainContentwt7wtSubmitButton'))
 
