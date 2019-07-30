@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_</name>
+   <name>a_Approve Time Sheets</name>
    <tag></tag>
-   <elementGuidId>b7ae44c0-5f5e-48db-a826-902d5d33db1f</elementGuidId>
+   <elementGuidId>924f451b-6ba7-49b1-9570-b6cb14ad604b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='ITUpTheme_wt17_block_wtMainContent_wt59_wtWeeksForward']</value>
+         <value>//a[@id='ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem_wt180']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,97 +24,97 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ITUpTheme_wt17_block_wtMainContent_wt59_wtWeeksForward</value>
+      <value>ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem_wt180</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>45</value>
+      <value>15</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>javascript:__doPostBack('ITUpTheme_wt17$block$wtMainContent$wt59$wtWeeksForward','')</value>
+      <value>https://internal.itup.pt/Timesheet/ListOfEmployeesToApproveTS.aspx</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>»</value>
+      <value>Approve Time Sheets</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ITUpTheme_wt17_block_wtMainContent_wt59_wtWeeksForward&quot;)</value>
+      <value>id(&quot;ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem_wt180&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='ITUpTheme_wt17_block_wtMainContent_wt59_wtWeeksForward']</value>
+      <value>//a[@id='ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem_wt180']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ITUpTheme_wt17_block_wtMainContent_wtWeeks_Navigation_Container']/div/div[3]/a</value>
+      <value>//div[@id='ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem']/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'»')]</value>
+      <value>//a[contains(text(),'Approve Time Sheets')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Week'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Time Sheet'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inês (DEV Test)'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Timesheet Approved'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Management'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rejection Comment:'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RowData'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, &quot;javascript:__doPostBack('ITUpTheme_wt17$block$wtMainContent$wt59$wtWeeksForward','')&quot;)]</value>
+      <value>//a[contains(@href, 'https://internal.itup.pt/Timesheet/ListOfEmployeesToApproveTS.aspx')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/a</value>
+      <value>//div[2]/div/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Time SheetsSubmit and review the time your team members are allocating to each project</name>
+   <name>a__1</name>
    <tag></tag>
-   <elementGuidId>61190457-46ab-494d-943c-557738c8a343</elementGuidId>
+   <elementGuidId>088f5716-512f-41be-a86a-db942453df7a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4']</value>
+         <value>//a[@id='ITUpTheme_wt17_block_wtMainContent_wt59_wtWeeksReward']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,76 +17,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4</value>
+      <value>ITUpTheme_wt17_block_wtMainContent_wt59_wtWeeksReward</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>Card hrportalcard</value>
+      <value>43</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>href</name>
       <type>Main</type>
-      <value>OsAjax(arguments[0] || window.event,'ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4','ITUpTheme_wt53$block$wtMainContent$WebPatterns_wt7$block$wtColumn2$wt4','Click','__OSVSTATE,',''); return false;</value>
+      <value>javascript:__doPostBack('ITUpTheme_wt17$block$wtMainContent$wt59$wtWeeksReward','')</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Time SheetsSubmit and review the time your team members are allocating to each project.                                    </value>
+      <value>«</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4&quot;)</value>
+      <value>id(&quot;ITUpTheme_wt17_block_wtMainContent_wt59_wtWeeksReward&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4']</value>
+      <value>//a[@id='ITUpTheme_wt17_block_wtMainContent_wt59_wtWeeksReward']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2']/div</value>
+      <value>//div[@id='ITUpTheme_wt17_block_wtMainContent_wtWeeks_Navigation_Container']/div/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'«')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support the yearly HR process evaluation of all employees.'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='August  12th - August  18th'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluation'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Timesheet'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Week'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='»'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;javascript:__doPostBack('ITUpTheme_wt17$block$wtMainContent$wt59$wtWeeksReward','')&quot;)]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div/div</value>
+      <value>//div[3]/div[3]/div/div[2]/div[2]/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

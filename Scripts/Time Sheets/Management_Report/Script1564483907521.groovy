@@ -15,54 +15,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/')
+WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
 
-WebUI.setText(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 'laura.fidalgo.dev')
+WebUI.setText(findTestObject('Object Repository/Repository_TimeSheet/Repository-TimeSheet_Management_Report/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
+    'ines.peguicha.dev')
 
-WebUI.setEncryptedText(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    'Y1Nh4jfnDFCge6QYsO1dtg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Repository_TimeSheet/Repository-TimeSheet_Management_Report/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
+    'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository-TimeSheet_Management_Report/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
-WebUI.click(findTestObject('Page_HomePage/div_Time SheetsSubmit and review the time your team members are allocating to each project'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository-TimeSheet_Management_Report/Page_HomePage/div_Time SheetsSubmit and review the time your team members are allocating to each project'))
 
-WebUI.click(findTestObject('Page_MyTimeSheet/a_Management'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository-TimeSheet_Management_Report/Page_MyTimeSheet/a_Management'))
 
-WebUI.click(findTestObject('Page_MyTimeSheet/span_Report'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository-TimeSheet_Management_Report/Page_MyTimeSheet/a_Report'))
 
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/span_(Org OSQuay 2)_fa fa-fw fa-angle-down'))
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/span_(Org OSQuay 2)_fa fa-fw fa-angle-down'))
-
-WebUI.selectOptionByValue(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/select_(Select status)CompleteNot CompleteTo ApproveOvertime'), 
-    '3', true)
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/input_Report_ITUpTheme_wt8blockwtMainContentwt17'))
-
-WebUI.selectOptionByValue(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/select_(Select status)CompleteNot CompleteTo ApproveOvertime'), 
-    '__ossli_0', true)
-
-WebUI.selectOptionByValue(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/select_'), '772', true)
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/input_Report_ITUpTheme_wt8blockwtMainContentwt17'))
-
-WebUI.selectOptionByValue(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/select_20202019201820172016'), 
-    '2018', true)
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/input_Report_ITUpTheme_wt8blockwtMainContentwt17'))
-
-WebUI.selectOptionByValue(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/select_JanuaryFebruaryMarchAprilMayJuneJulyAugustSeptemberOctoberNovemberDecember'), 
-    '__ossli_4', true)
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/input_Report_ITUpTheme_wt8blockwtMainContentwt17'))
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/input_Report_ITUpTheme_wt8blockwtMainContentwt26'))
-
-WebUI.selectOptionByValue(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/select_'), '__ossli_0', true)
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/input_Report_ITUpTheme_wt8blockwtMainContentwt17'))
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_Report/Page_Report/input_Report_ITUpTheme_wt8blockwtActionswtExportButton'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository-TimeSheet_Management_Report/Page_Report/span_(Org OSQuay 2)_fa fa-fw fa-angle-down'))
 
 WebUI.closeBrowser()
 

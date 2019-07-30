@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Time SheetsSubmit and review the time your team members are allocating to each project</name>
+   <name>a_RowData</name>
    <tag></tag>
-   <elementGuidId>61190457-46ab-494d-943c-557738c8a343</elementGuidId>
+   <elementGuidId>53f36b50-2ca6-412c-a3ae-1f78b109b3ff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4']</value>
+         <value>//a[@id='ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtManagement3_block_wtMenuSubItems_wt160']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,76 +17,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4</value>
+      <value>ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtManagement3_block_wtMenuSubItems_wt160</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>Card hrportalcard</value>
+      <value>17</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onclick</name>
+      <name>href</name>
       <type>Main</type>
-      <value>OsAjax(arguments[0] || window.event,'ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4','ITUpTheme_wt53$block$wtMainContent$WebPatterns_wt7$block$wtColumn2$wt4','Click','__OSVSTATE,',''); return false;</value>
+      <value>https://internal.itup.pt/Timesheet/RowData.aspx</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Time SheetsSubmit and review the time your team members are allocating to each project.                                    </value>
+      <value>RowData</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4&quot;)</value>
+      <value>id(&quot;ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtManagement3_block_wtMenuSubItems_wt160&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4']</value>
+      <value>//a[@id='ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtManagement3_block_wtMenuSubItems_wt160']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2']/div</value>
+      <value>//div[@id='ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtManagement3_block_wtMenuSubItems']/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support the yearly HR process evaluation of all employees.'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Management'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluation'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve Time Sheets'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://internal.itup.pt/Timesheet/RowData.aspx')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div/div</value>
+      <value>//div[2]/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

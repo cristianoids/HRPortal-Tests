@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput</name>
    <tag></tag>
-   <elementGuidId>75196538-0998-4e3a-b9b1-22a243bfb0f9</elementGuidId>
+   <elementGuidId>84f799b5-dd20-47e7-bf3f-fbc1b157918c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
