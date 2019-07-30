@@ -23,8 +23,8 @@ WebUI.setText(findTestObject('Object Repository/Repository_Vacations/Test Pendin
 WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Vacations/Test PendingRequest_User/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
     'aeHFOx8jV/A=')
 
-WebUI.sendKeys(findTestObject('Object Repository/Repository_Vacations/Test PendingRequest_User/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test PendingRequest_User/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test PendingRequest_User/Page_HomePage/div_VacationLet your employees schedule vacation and other absences review and choose whether to approve or not Customize holidays'))
 
