@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Pedro Paulino</name>
+   <name>input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton</name>
    <tag></tag>
-   <elementGuidId>cb800f84-d61a-49db-82ad-f6c077f0b6e3</elementGuidId>
+   <elementGuidId>8a95bcf1-121c-4233-9c23-00baffd5ce61</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl04_WebPatterns_wt8_block_wtTitle']</value>
+         <value>//input[@id='WebPatterns_wt11_block_wtAction_wtLoginButton']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,76 +17,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>WebPatterns_wt11$block$wtAction$wtLoginButton</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl04_WebPatterns_wt8_block_wtTitle</value>
+      <value>WebPatterns_wt11_block_wtAction_wtLoginButton</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>Heading2 SectionExpandable__title</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Pedro Paulino</value>
+      <value>Button Is_Default OSFillParent</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl04_WebPatterns_wt8_block_wtTitle&quot;)</value>
+      <value>id(&quot;WebPatterns_wt11_block_wtAction_wtLoginButton&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl04_WebPatterns_wt8_block_wtTitle']</value>
+      <value>//input[@id='WebPatterns_wt11_block_wtAction_wtLoginButton']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl04_WebPatterns_wt8_block_wtSectionExpandableArea']/div/div</value>
+      <value>//div[@id='WebPatterns_wt11_block_wtAction']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total: 4 hours'])[1]/following::div[11]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember login'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun,25'])[2]/following::div[13]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='WEEK August, 5th - August, 11th'])[2]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot my password'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[3]/div/div/div</value>
+      <value>//div[3]/input</value>
    </webElementXpaths>
 </WebElementEntity>

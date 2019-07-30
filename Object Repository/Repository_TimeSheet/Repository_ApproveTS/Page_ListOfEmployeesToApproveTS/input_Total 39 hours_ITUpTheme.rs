@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Total 40 hours</name>
+   <name>input_Total 39 hours_ITUpTheme</name>
    <tag></tag>
-   <elementGuidId>d6a315af-2e34-4e38-9159-c7c25c1a5d02</elementGuidId>
+   <elementGuidId>e52553ac-735e-4b60-92e8-233e43e0e996</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl04_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3_wt50']</value>
+         <value>//input[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl00_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3_wt50']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>var ret = confirm('You will approved  timesheet of 2019-08-05 for Pedro Paulino. Do you confirm?');if( ret != true ) {return false;}OsAjax(arguments[0] || window.event,'ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl04_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3_wt50','ITUpTheme_wt1$block$wtMainContent$wtListRecords1$ctl04$WebPatterns_wt8$block$wtContent$wt4$wtListRecords1$ctl00$WebPatterns_wt2$block$wtContent$wt3$wt50','','__OSVSTATE,',''); return false;</value>
+      <value>var ret = confirm('You will approved  timesheet of 2019-07-29 for Inês (DEV Test). Do you confirm?');if( ret != true ) {return false;}OsAjax(arguments[0] || window.event,'ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl00_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3_wt50','ITUpTheme_wt1$block$wtMainContent$wtListRecords1$ctl00$WebPatterns_wt8$block$wtContent$wt4$wtListRecords1$ctl00$WebPatterns_wt2$block$wtContent$wt3$wt50','','__OSVSTATE,',''); return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ITUpTheme_wt1$block$wtMainContent$wtListRecords1$ctl04$WebPatterns_wt8$block$wtContent$wt4$wtListRecords1$ctl00$WebPatterns_wt2$block$wtContent$wt3$wt50</value>
+      <value>ITUpTheme_wt1$block$wtMainContent$wtListRecords1$ctl00$WebPatterns_wt8$block$wtContent$wt4$wtListRecords1$ctl00$WebPatterns_wt2$block$wtContent$wt3$wt50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,14 +52,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl04_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3_wt50</value>
+      <value>ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl00_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3_wt50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>40</value>
+      <value>34</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,55 +73,55 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl04_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3_wt50&quot;)</value>
+      <value>id(&quot;ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl00_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3_wt50&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl04_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3_wt50']</value>
+      <value>//input[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl00_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3_wt50']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl04_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3']/div[2]/input</value>
+      <value>//span[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl00_WebPatterns_wt8_block_wtContent_wt4_wtListRecords1_ctl00_WebPatterns_wt2_block_wtContent_wt3']/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total: 40 hours'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total: 39 hours'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun,11'])[3]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun,4'])[2]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[1]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laura Fidalgo'])[2]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear All'])[1]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WEEK August, 19th - August, 25th'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[3]/div/div[2]/div/span/span/div/div[2]/span/div[2]/input</value>
+      <value>//span/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
