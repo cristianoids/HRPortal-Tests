@@ -13,35 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/')
-
-WebUI.setText(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 'laura.fidalgo.dev')
-
-WebUI.setEncryptedText(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    'Y1Nh4jfnDFCge6QYsO1dtg==')
-
-WebUI.click(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
-
-WebUI.click(findTestObject('Object Repository/Repository_ListEmployAlloc/Page_HomePage/div_AllocationManage'))
-
-WebUI.click(findTestObject('Object Repository/Repository_ListEmployAlloc/Page_AllocationCalendar/a_List Of Employees'))
-
-WebUI.click(findTestObject('Object Repository/Repository_ListEmployAlloc/Page_List Of Employees/input_Only free_ITUpTheme_wt46blockwtMainContentwt50'))
-
-WebUI.click(findTestObject('Object Repository/Repository_ListEmployAlloc/Page_List Of Employees/input_Only free_ITUpTheme_wt46blockwtMainContentwt50_1'))
-
-WebUI.setText(findTestObject('Object Repository/Repository_ListEmployAlloc/Page_List Of Employees/input_Only free_ITUpTheme_wt46blockwtMainContentwtSearchInput2'), 
-    'Ana')
-
-WebUI.click(findTestObject('Object Repository/Repository_ListEmployAlloc/Page_List Of Employees/input_Only free_ITUpTheme_wt46blockwtMainContentwt18'))
-
-WebUI.click(findTestObject('Object Repository/Repository_ListEmployAlloc/Page_List Of Employees/input_Only free_ITUpTheme_wt46blockwtMainContentwt20'))
-
-WebUI.click(findTestObject('Object Repository/Repository_ListEmployAlloc/Page_List Of Employees/a_next'))
-
-WebUI.click(findTestObject('Object Repository/Repository_ListEmployAlloc/Page_List Of Employees/a_previous'))
-
-WebUI.closeBrowser()
-
