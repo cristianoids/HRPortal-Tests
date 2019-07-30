@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Approve Time Sheets_fa fa-fw fa-check-circle</name>
+   <name>div_Ins (DEV Test)</name>
    <tag></tag>
-   <elementGuidId>19d24cb5-d783-4b04-bcac-60988e1d091f</elementGuidId>
+   <elementGuidId>3380a571-5e54-4bc8-9dbc-67102b0de2cf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem_wt180']/span</value>
+         <value>//div[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl00_WebPatterns_wt8_block_wtTitle']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,62 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl00_WebPatterns_wt8_block_wtTitle</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-fw fa-check-circle</value>
+      <value>Heading2 SectionExpandable__title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Inês (DEV Test)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem_wt180&quot;)/span[@class=&quot;fa fa-fw fa-check-circle&quot;]</value>
+      <value>id(&quot;ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl00_WebPatterns_wt8_block_wtTitle&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl00_WebPatterns_wt8_block_wtTitle']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem_wt180']/span</value>
+      <value>//div[@id='ITUpTheme_wt1_block_wtMainContent_wtListRecords1_ctl00_WebPatterns_wt8_block_wtSectionExpandableArea']/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approve Time Sheets'])[1]/span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TIME SHEETS TO APPROVE'])[1]/following::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Time Sheet'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Timesheet Approved'])[1]/following::div[17]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Management'])[1]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='RowData'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WEEK July, 29th - August, 4th'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/a/span</value>
+      <value>//span/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

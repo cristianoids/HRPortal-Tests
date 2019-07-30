@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput</name>
+   <name>a_previous</name>
    <tag></tag>
-   <elementGuidId>0c8ac89c-5892-45fa-900f-41bcab8b1be2</elementGuidId>
+   <elementGuidId>6ecedd84-e9ba-4163-86d2-79f301476441</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='WebPatterns_wt11_block_wtPassword_wtPasswordInput']</value>
+         <value>//a[@id='ITUpTheme_wt46_block_wtMainContent_RichWidgets_wt51_block_wt24']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,104 +17,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>WebPatterns_wt11$block$wtPassword$wtPasswordInput</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>20</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>WebPatterns_wt11_block_wtPassword_wtPasswordInput</value>
+      <value>ITUpTheme_wt46_block_wtMainContent_RichWidgets_wt51_block_wt24</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>2</value>
+      <value>79</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>OSFillParent Mandatory</value>
+      <value>ListNavigation_Previous list-navigation</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>onkeydown</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>return OsEnterKey('WebPatterns_wt11_block_wtAction_wtLoginButton', arguments[0] || window.event);</value>
+      <value>OsAjax(arguments[0] || window.event,'ITUpTheme_wt46_block_wtMainContent_RichWidgets_wt51_block_wt24','ITUpTheme_wt46$block$wtMainContent$RichWidgets_wt51$block$wt24','','__OSVSTATE,',''); return false;OsAjax(arguments[0] || window.event,'ITUpTheme_wt46_block_wtMainContent_RichWidgets_wt51_block_wt24','ITUpTheme_wt46$block$wtMainContent$RichWidgets_wt51$block$wt24','','__OSVSTATE,',''); return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>href</name>
       <type>Main</type>
-      <value>Password</value>
+      <value>#</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>previous</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;WebPatterns_wt11_block_wtPassword_wtPasswordInput&quot;)</value>
+      <value>id(&quot;ITUpTheme_wt46_block_wtMainContent_RichWidgets_wt51_block_wt24&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='WebPatterns_wt11_block_wtPassword_wtPasswordInput']</value>
+      <value>//a[@id='ITUpTheme_wt46_block_wtMainContent_RichWidgets_wt51_block_wt24']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='WebPatterns_wt11_block_wtPassword']/input</value>
+      <value>//div[@id='ITUpTheme_wt46_block_wtMainContent_RichWidgets_wt51_block_ctl22']/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'previous')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember login'])[1]/preceding::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OSQ-OSQ-TRN-2019'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot my password'])[1]/preceding::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OSQ-FDT-003-2019'])[2]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='...'])[1]/preceding::a[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/input</value>
+      <value>//div[2]/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

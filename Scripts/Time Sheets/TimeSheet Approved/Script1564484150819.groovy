@@ -17,26 +17,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/')
 
-WebUI.setText(findTestObject('Object Repository/Repository_TSApproved/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
+WebUI.setText(findTestObject('Repository_TimeSheet/Repository_TSApproved/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
     'laura.fidalgo.dev')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Repository_TSApproved/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
+WebUI.setEncryptedText(findTestObject('Repository_TimeSheet/Repository_TSApproved/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
     'Y1Nh4jfnDFCge6QYsO1dtg==')
 
-WebUI.click(findTestObject('Object Repository/Repository_TSApproved/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
+WebUI.click(findTestObject('Repository_TimeSheet/Repository_TSApproved/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
-WebUI.click(findTestObject('Object Repository/Repository_TSApproved/Page_HomePage/div_Time SheetsSubmit and review the time your team members are allocating to each project'))
+WebUI.click(findTestObject('Repository_TimeSheet/Repository_TSApproved/Page_HomePage/div_Time SheetsSubmit and review the time your team members are allocating to each project'))
 
-WebUI.click(findTestObject('Object Repository/Repository_TSApproved/Page_MyTimeSheet/a_Management'))
+WebUI.click(findTestObject('Repository_TimeSheet/Repository_TSApproved/Page_MyTimeSheet/a_Management'))
 
-WebUI.click(findTestObject('Object Repository/Repository_TSApproved/Page_MyTimeSheet/a_Timesheet Approved'))
+WebUI.click(findTestObject('Repository_TimeSheet/Repository_TSApproved/Page_MyTimeSheet/a_Timesheet Approved'))
 
-WebUI.setText(findTestObject('Object Repository/Repository_TSApproved/Page_TimesheetsApproved/input_TIME SHEETS APPROVED_ITUpTheme_wt22blockwtMainContentwtNameFilterInput'), 
+WebUI.setText(findTestObject('Repository_TimeSheet/Repository_TSApproved/Page_TimesheetsApproved/input_TIME SHEETS APPROVED_ITUpTheme_wt22blockwtMainContentwtNameFilterInput'), 
     '')
 
-WebUI.click(findTestObject('Object Repository/Repository_TSApproved/Page_TimesheetsApproved/div_Lara Silva'))
+WebUI.click(findTestObject('Repository_TimeSheet/Repository_TSApproved/Page_TimesheetsApproved/div_Lara Silva'))
 
-WebUI.click(findTestObject('Object Repository/Repository_TSApproved/Page_TimesheetsApproved/div_Lara Silva'))
+WebUI.click(findTestObject('Repository_TimeSheet/Repository_TSApproved/Page_TimesheetsApproved/div_Lara Silva'))
 
 WebUI.closeBrowser()
 
