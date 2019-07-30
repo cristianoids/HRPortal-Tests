@@ -25,7 +25,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Vacations/Te
 
 WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test Vacations/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test Vacations/Page_HomePage/span_Vacation'))
+WebUI.click(findTestObject('Repository_Vacations/Test Aprove_Requests/Test Vacations/Page_HomePage/span_Vacation'))
 
 WebUI.closeBrowser()
 
