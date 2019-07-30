@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput</name>
+   <name>div_Time SheetsSubmit and review the time your team members are allocating to each project</name>
    <tag></tag>
-   <elementGuidId>e86eb941-3d27-48b8-90d4-f2341ef08750</elementGuidId>
+   <elementGuidId>2730ca60-da99-46d0-bad6-e01f73143ef6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='WebPatterns_wt11_block_wtUsername_wtUserNameInput']</value>
+         <value>//div[@id='ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,111 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>WebPatterns_wt11$block$wtUsername$wtUserNameInput</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>50</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>WebPatterns_wt11_block_wtUsername_wtUserNameInput</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>1</value>
+      <value>ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>OSFillParent Mandatory</value>
+      <value>Card hrportalcard</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>OsAjax(arguments[0] || window.event,'ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4','ITUpTheme_wt53$block$wtMainContent$WebPatterns_wt7$block$wtColumn2$wt4','Click','__OSVSTATE,',''); return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Username</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onkeydown</name>
-      <type>Main</type>
-      <value>return OsEnterKey('WebPatterns_wt11_block_wtAction_wtLoginButton', arguments[0] || window.event);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autofocus</name>
-      <type>Main</type>
-      <value>autofocus</value>
+      <value>Time SheetsSubmit and review the time your team members are allocating to each project.                                    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;WebPatterns_wt11_block_wtUsername_wtUserNameInput&quot;)</value>
+      <value>id(&quot;ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='WebPatterns_wt11_block_wtUsername_wtUserNameInput']</value>
+      <value>//div[@id='ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt4']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='WebPatterns_wt11_block_wtUsername']/input</value>
+      <value>//div[@id='ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember login'])[1]/preceding::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Support the yearly HR process evaluation of all employees.'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot my password'])[1]/preceding::input[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Evaluation'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
+      <value>//div[2]/div/div[2]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

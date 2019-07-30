@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput</name>
+   <name>a_Approve Time Sheets</name>
    <tag></tag>
-   <elementGuidId>0c8ac89c-5892-45fa-900f-41bcab8b1be2</elementGuidId>
+   <elementGuidId>c37e3473-59d4-48da-bdf4-11664577f557</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='WebPatterns_wt11_block_wtPassword_wtPasswordInput']</value>
+         <value>//a[@id='ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem_wt180']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,104 +17,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>WebPatterns_wt11$block$wtPassword$wtPasswordInput</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>20</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>WebPatterns_wt11_block_wtPassword_wtPasswordInput</value>
+      <value>ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem_wt180</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>2</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>OSFillParent Mandatory</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onkeydown</name>
-      <type>Main</type>
-      <value>return OsEnterKey('WebPatterns_wt11_block_wtAction_wtLoginButton', arguments[0] || window.event);</value>
+      <value>15</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>href</name>
       <type>Main</type>
-      <value>Password</value>
+      <value>https://internal.itup.pt/Timesheet/ListOfEmployeesToApproveTS.aspx</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Approve Time Sheets</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;WebPatterns_wt11_block_wtPassword_wtPasswordInput&quot;)</value>
+      <value>id(&quot;ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem_wt180&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='WebPatterns_wt11_block_wtPassword_wtPasswordInput']</value>
+      <value>//a[@id='ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem_wt180']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='WebPatterns_wt11_block_wtPassword']/input</value>
+      <value>//div[@id='ITUpTheme_wt17_block_wtMenu_Menu_HRPortal_wt58_block_RichWidgets_wtApproveTimeSheet_block_wtMenuItem']/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Approve Time Sheets')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember login'])[1]/preceding::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Time Sheet'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot my password'])[1]/preceding::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laura Fidalgo'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Management'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RowData'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://internal.itup.pt/Timesheet/ListOfEmployeesToApproveTS.aspx')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/input</value>
+      <value>//div[2]/div/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

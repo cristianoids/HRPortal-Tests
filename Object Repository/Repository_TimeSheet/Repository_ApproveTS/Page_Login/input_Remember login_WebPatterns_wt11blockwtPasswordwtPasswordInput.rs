@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton</name>
+   <name>input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput</name>
    <tag></tag>
-   <elementGuidId>33a57004-0b09-4bd5-a3f6-23a59aaf9b8b</elementGuidId>
+   <elementGuidId>db41fbbe-9588-4e07-a71e-0fefd75fe058</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='WebPatterns_wt11_block_wtAction_wtLoginButton']</value>
+         <value>//input[@id='WebPatterns_wt11_block_wtPassword_wtPasswordInput']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,85 +22,99 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>name</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>WebPatterns_wt11$block$wtPassword$wtPasswordInput</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>type</name>
       <type>Main</type>
-      <value>WebPatterns_wt11$block$wtAction$wtLoginButton</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>Login</value>
+      <value>20</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>WebPatterns_wt11_block_wtAction_wtLoginButton</value>
+      <value>WebPatterns_wt11_block_wtPassword_wtPasswordInput</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>3</value>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>Button Is_Default OSFillParent</value>
+      <value>OSFillParent Mandatory</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onkeydown</name>
+      <type>Main</type>
+      <value>return OsEnterKey('WebPatterns_wt11_block_wtAction_wtLoginButton', arguments[0] || window.event);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;WebPatterns_wt11_block_wtAction_wtLoginButton&quot;)</value>
+      <value>id(&quot;WebPatterns_wt11_block_wtPassword_wtPasswordInput&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='WebPatterns_wt11_block_wtAction_wtLoginButton']</value>
+      <value>//input[@id='WebPatterns_wt11_block_wtPassword_wtPasswordInput']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='WebPatterns_wt11_block_wtAction']/input</value>
+      <value>//div[@id='WebPatterns_wt11_block_wtPassword']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember login'])[1]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember login'])[1]/preceding::input[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot my password'])[1]/preceding::input[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot my password'])[1]/preceding::input[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/input</value>
+      <value>//div[2]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
