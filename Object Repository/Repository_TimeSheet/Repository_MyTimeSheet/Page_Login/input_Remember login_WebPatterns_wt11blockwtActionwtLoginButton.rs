@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton</name>
    <tag></tag>
-   <elementGuidId>85d86c8d-367b-4a31-8216-61c26041e555</elementGuidId>
+   <elementGuidId>36a6a494-86c5-4db7-8d1d-fabc3b4f8a19</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -13,21 +13,21 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -41,7 +41,7 @@
       <value>Login</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -69,7 +69,7 @@
       <value>id(&quot;WebPatterns_wt11_block_wtAction_wtLoginButton&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

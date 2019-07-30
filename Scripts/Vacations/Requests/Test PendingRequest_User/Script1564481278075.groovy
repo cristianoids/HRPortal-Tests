@@ -39,7 +39,5 @@ WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test Pending_
 
 WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test Pending_Request_User/Page_RequestDetail/input_concat(Sofia Santos  s Request)_ITUpTheme_wt26blockwtActionswtRequestButton'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test Pending_Request_User/Page_RequestDetail/a_close'))
-
 WebUI.closeBrowser()
 

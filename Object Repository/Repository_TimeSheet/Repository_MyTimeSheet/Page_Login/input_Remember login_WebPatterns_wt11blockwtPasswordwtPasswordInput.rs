@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput</name>
    <tag></tag>
-   <elementGuidId>554c0a85-de81-43ed-9b12-b0184ce04a71</elementGuidId>
+   <elementGuidId>8b1eb096-4513-4fe0-ab27-186f25803297</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -13,21 +13,21 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>WebPatterns_wt11$block$wtPassword$wtPasswordInput</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -41,7 +41,7 @@
       <value>20</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -69,7 +69,7 @@
       <value>return OsEnterKey('WebPatterns_wt11_block_wtAction_wtLoginButton', arguments[0] || window.event);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -83,7 +83,7 @@
       <value>id(&quot;WebPatterns_wt11_block_wtPassword_wtPasswordInput&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

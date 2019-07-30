@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput</name>
    <tag></tag>
-   <elementGuidId>fa7af640-0bd4-4a0e-8a39-659f0eb17941</elementGuidId>
+   <elementGuidId>a4c0de2e-5527-407b-bed9-b5d2da7dd12e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -13,21 +13,21 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>WebPatterns_wt11$block$wtUsername$wtUserNameInput</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -41,7 +41,7 @@
       <value>50</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -62,7 +62,7 @@
       <value>OSFillParent Mandatory</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -90,7 +90,7 @@
       <value>id(&quot;WebPatterns_wt11_block_wtUsername_wtUserNameInput&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

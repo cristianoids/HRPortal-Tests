@@ -15,52 +15,28 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/')
+WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
 
-WebUI.setText(findTestObject('Repository_TimeSheet/Repository_RowData/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
-    'laura.fidalgo.dev')
+WebUI.setText(findTestObject('Object Repository/Repository_TimeSheet/Repository_RowData/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
+    'ines.peguicha.dev')
 
-WebUI.setEncryptedText(findTestObject('Repository_TimeSheet/Repository_RowData/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    'Y1Nh4jfnDFCge6QYsO1dtg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Repository_TimeSheet/Repository_RowData/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
+    'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository_RowData/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_HomePage/div_Time SheetsSubmit and review the time your team members are allocating to each project'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository_RowData/Page_HomePage/div_Time SheetsSubmit and review the time your team members are allocating to each project'))
 
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_MyTimeSheet/a_Management'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository_RowData/Page_MyTimeSheet/a_Management'))
 
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_MyTimeSheet/span_RowData'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository_RowData/Page_MyTimeSheet/a_RowData'))
 
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/td_28'))
+WebUI.setText(findTestObject('Object Repository/Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwtemployee'), 
+    'ines')
 
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwt60'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwt60'))
 
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/td_17'))
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwt60'))
-
-WebUI.setText(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwtproject'), 
-    'Test')
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/a_201801-ITUP-INT_TtT'))
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwt60'))
-
-WebUI.setText(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwtemployee'), 
-    'Laura')
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwt60'))
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwt6'))
-
-WebUI.setText(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwtemployee'), 
-    'Laura')
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/ui-autocomplete-item_Laura Fidalgo'))
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwt60'))
-
-WebUI.click(findTestObject('Repository_TimeSheet/Repository_RowData/Page_RowData/input_Is Billable_ITUpTheme_wt23blockwtMainContentwt10'))
+WebUI.click(findTestObject('Object Repository/Repository_TimeSheet/Repository_RowData/Page_RowData/input_Download Time sheets_ITUpTheme_wt23blockwtMainContentwt6'))
 
 WebUI.closeBrowser()
 
