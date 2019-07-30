@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_CDATAOsInputPrompt</name>
+   <tag></tag>
+   <elementGuidId>4ac05a5f-bd44-408f-a094-e7cdb86c9778</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='WebForm1']/div[3]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Login__Form</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+//&lt;![CDATA[
+OsInputPrompt_Bootstrap('WebPatterns_wt11_block_wtUsername_wtUserNameInput');
+//]]>
+Remember login
+      RichWidgets_Popup_Editor_init('WebPatterns_wt11_block_wtAction_wtRecoverLink',
+'WebPatterns_wt11_block_wtAction_RichWidgets_wt7_block',' ',-1,-1,'https://internal.itup.pt/Menu_HRPortal/Login.aspx', true, true, false, false);
+ Forgot my password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;WebForm1&quot;)/div[@class=&quot;Page windows chrome en tablet landscape&quot;]/div[@class=&quot;Login&quot;]/div[@class=&quot;Login_Box&quot;]/div[@class=&quot;Login__Form&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='WebForm1']/div[3]/div/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>
