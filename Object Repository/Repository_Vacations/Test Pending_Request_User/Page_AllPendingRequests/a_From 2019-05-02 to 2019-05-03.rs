@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_From 2019-05-02 to 2019-05-03</name>
+   <tag></tag>
+   <elementGuidId>20b13210-0058-4843-9306-be61f731b783</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ITUpTheme_wt17_block_wtMainContent_WebPatterns_wt14_block_wtItems_wtPendingVacationRequests_ctl00_WebPatterns_wt11_block_wtContent_wt19_wtEmployeeRequestList_ctl00_wt11']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ITUpTheme_wt17_block_wtMainContent_WebPatterns_wt14_block_wtItems_wtPendingVacationRequests_ctl00_WebPatterns_wt11_block_wtContent_wt19_wtEmployeeRequestList_ctl00_wt11</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>34</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://internal.itup.pt/Vacations/RequestDetail.aspx?UserId=1967&amp;StartDate=2019-05-02&amp;(Not.Licensed.For.Production)=</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>From 2019-05-02 to 2019-05-03</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ITUpTheme_wt17_block_wtMainContent_WebPatterns_wt14_block_wtItems_wtPendingVacationRequests_ctl00_WebPatterns_wt11_block_wtContent_wt19_wtEmployeeRequestList_ctl00_wt11&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ITUpTheme_wt17_block_wtMainContent_WebPatterns_wt14_block_wtItems_wtPendingVacationRequests_ctl00_WebPatterns_wt11_block_wtContent_wt19_wtEmployeeRequestList_ctl00_wt11']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='ITUpTheme_wt17_block_wtMainContent_WebPatterns_wt14_block_wtItems_wtPendingVacationRequests_ctl00_WebPatterns_wt11_block_wtContent_wt19_wtEmployeeRequestList']/div/div[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'From 2019-05-02 to 2019-05-03')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sofia Santos'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='From 2019-06-11 to 2019-06-14'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://internal.itup.pt/Vacations/RequestDetail.aspx?UserId=1967&amp;StartDate=2019-05-02&amp;(Not.Licensed.For.Production)=')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+   </webElementXpaths>
+</WebElementEntity>
