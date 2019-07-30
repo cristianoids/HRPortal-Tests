@@ -24,21 +24,21 @@ WebUI.setEncryptedText(findTestObject('Page_Login/input_Remember login_WebPatter
 
 WebUI.click(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Allocation/Page_HomePage/div_AllocationManage'))
+WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_HomePage/div_AllocationManage'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Allocation/Page_AllocationCalendar/ul_Employee_select2-choices'))
+WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/ul_Employee_select2-choices'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Allocation/Page_AllocationCalendar/input_label_ITUpTheme_wt148blockwtMainContentwt142'))
+WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/input_label_ITUpTheme_wt148blockwtMainContentwt142'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Allocation/Page_AllocationCalendar/ui-autocomplete-item_201801-NOE-TRN'))
+WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/ui-autocomplete-item_201801-NOE-TRN'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Allocation/Page_AllocationCalendar/a_Ana Reis_select2-search-choice-close'))
+WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/a_Ana Reis_select2-search-choice-close'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Allocation/Page_AllocationCalendar/input_label_ITUpTheme_wt148blockwtMainContentwt142'))
+WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/input_label_ITUpTheme_wt148blockwtMainContentwt142'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Allocation/Page_AllocationCalendar/input_Current Week_ITUpTheme_wt148blockwtMainContentwt8'))
+WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/input_Current Week_ITUpTheme_wt148blockwtMainContentwt8'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Allocation/Page_AllocationCalendar/input_label_ITUpTheme_wt148blockwtMainContentwt50'))
+WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/input_label_ITUpTheme_wt148blockwtMainContentwt50'))
 
 WebUI.closeBrowser()
 
