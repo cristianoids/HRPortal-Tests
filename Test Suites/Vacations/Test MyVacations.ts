@@ -22,4 +22,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Vacations/MyVacations/Test Vacations</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fbf30d74-1c7e-4841-b19e-242cff9b5279</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Vacations/MyVacations/Test MyVactions_PreviousNextYear</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
