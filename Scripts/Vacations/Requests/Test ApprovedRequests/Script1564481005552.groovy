@@ -17,19 +17,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
 
-WebUI.setText(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequests/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
+WebUI.setText(findTestObject('Repository_Vacations/Test Aprove_Requests/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
     'ines.peguicha.dev')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequests/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
+WebUI.setEncryptedText(findTestObject('Repository_Vacations/Test Aprove_Requests/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequests/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
+WebUI.click(findTestObject('Repository_Vacations/Test Aprove_Requests/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequests/Page_HomePage/span_Vacation'))
+WebUI.click(findTestObject('Repository_Vacations/Test Aprove_Requests/Page_HomePage/div_VacationLet your employees schedule vacation and other absences review and choose whether to approve or not Customize holidays'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequests/Page_MyVacations/span_Requests_Menu_DropDownArrow'))
+WebUI.click(findTestObject('Repository_Vacations/Test Aprove_Requests/Page_MyVacations/a_Requests'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequests/Page_MyVacations/span_Approved Requests'))
+WebUI.click(findTestObject('Repository_Vacations/Test Aprove_Requests/Page_MyVacations/span_Approved Requests'))
 
 WebUI.closeBrowser()
 

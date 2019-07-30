@@ -17,20 +17,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
 
-WebUI.setText(findTestObject('Object Repository/Repository_Vacations/Test MyVacationsPreviousNextYear/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
+WebUI.setText(findTestObject('Object Repository/Repository_Vacations/Test MyVacations_PreviousNextYear/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
     'ines.peguicha.dev')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Vacations/Test MyVacationsPreviousNextYear/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Vacations/Test MyVacations_PreviousNextYear/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test MyVacationsPreviousNextYear/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test MyVacations_PreviousNextYear/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test MyVacationsPreviousNextYear/Page_HomePage/span_Vacation'))
+WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test MyVacations_PreviousNextYear/Page_HomePage/div_VacationLet your employees schedule vacation and other absences review and choose whether to approve or not Customize holidays'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test MyVacationsPreviousNextYear/Page_MyVacations/input_days left this year_ITUpTheme_wt7blockwtMainContentwtcalendarYearwt1'))
+WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test MyVacations_PreviousNextYear/Page_MyVacations/input_days left this year_ITUpTheme_wt7blockwtMainContentwtcalendarYearwt6'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test MyVacationsPreviousNextYear/Page_MyVacations/input_days left this year_ITUpTheme_wt7blockwtMainContentwtcalendarYearwt6'))
+WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test MyVacations_PreviousNextYear/Page_MyVacations/input_days left this year_ITUpTheme_wt7blockwtMainContentwtcalendarYearwt1'))
 
 WebUI.closeBrowser()
 

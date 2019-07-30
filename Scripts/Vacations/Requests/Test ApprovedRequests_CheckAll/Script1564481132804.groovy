@@ -17,22 +17,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
 
-WebUI.setText(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequest_CheckAll/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
+WebUI.setText(findTestObject('Object Repository/Repository_Vacations/Test Aprove_Requests_CheckAll/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
     'ines.peguicha.dev')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequest_CheckAll/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Vacations/Test Aprove_Requests_CheckAll/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequest_CheckAll/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test Aprove_Requests_CheckAll/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequest_CheckAll/Page_HomePage/span_Vacation'))
+WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test Aprove_Requests_CheckAll/Page_HomePage/div_VacationLet your employees schedule vacation and other absences review and choose whether to approve or not Customize holidays'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequest_CheckAll/Page_MyVacations/span_Requests_Menu_DropDownArrow'))
+WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test Aprove_Requests_CheckAll/Page_MyVacations/a_Requests'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequest_CheckAll/Page_MyVacations/span_Approved Requests'))
+WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test Aprove_Requests_CheckAll/Page_MyVacations/span_Approved Requests'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test ApprovedRequest_CheckAll/Page_MyTeamVacations/input_Employees_ITUpTheme_wt14blockwtMainContentWebPatterns_wt9blockwtItemsWebPatterns_wt20blockwtTitlewtCheckEmployees'))
+WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test Aprove_Requests_CheckAll/Page_MyTeamVacations/input_Employees_ITUpTheme_wt14blockwtMainContentWebPatterns_wt9blockwtItemsWebPatterns_wt20blockwtTitlewtCheckEmployees'))
 
 WebUI.closeBrowser()
 
