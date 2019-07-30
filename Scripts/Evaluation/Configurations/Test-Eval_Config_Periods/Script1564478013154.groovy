@@ -18,19 +18,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
 
-WebUI.setText(findTestObject('Object Repository/Repository-Evaluation_Config_Periods/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
+WebUI.setText(findTestObject('Repository_Evaluation/Repository-Evaluation_Config_Periods/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
     'ines.peguicha.dev')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Repository-Evaluation_Config_Periods/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
+WebUI.setEncryptedText(findTestObject('Repository_Evaluation/Repository-Evaluation_Config_Periods/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Repository-Evaluation_Config_Periods/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
+WebUI.click(findTestObject('Repository_Evaluation/Repository-Evaluation_Config_Periods/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
-WebUI.click(findTestObject('Object Repository/Repository-Evaluation_Config_Periods/Page_HomePage/div_EvaluationSupport the yearly HR process evaluation of all employees'))
+WebUI.click(findTestObject('Repository_Evaluation/Repository-Evaluation_Config_Periods/Page_HomePage/div_EvaluationSupport the yearly HR process evaluation of all employees'))
 
-WebUI.click(findTestObject('Object Repository/Repository-Evaluation_Config_Periods/Page_HomePage/a_Configurations'))
+WebUI.click(findTestObject('Repository_Evaluation/Repository-Evaluation_Config_Periods/Page_HomePage/a_Configurations'))
 
-WebUI.click(findTestObject('Object Repository/Repository-Evaluation_Config_Periods/Page_HomePage/a_Periods'))
+WebUI.click(findTestObject('Repository_Evaluation/Repository-Evaluation_Config_Periods/Page_HomePage/a_Periods'))
 
 WebUI.closeBrowser()
 
