@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Object Repository/Repository Allocation2/Repository_
 
 WebUI.click(findTestObject('Object Repository/Repository Allocation2/Repository_ListOfEmployees/Page_HomePage/div_AllocationManage your projects by easily defining allocation resources Visualize all your projects in a comprehensive way'))
 
-WebUI.click(findTestObject('Object Repository/Repository Allocation2/Repository_ListOfEmployees/Page_AllocationCalendar/a_List Of Employees'))
+WebUI.click(findTestObject('Repository Allocation2/Repository_MyAllocation/Repository_ListOfEmployees/Page_AllocationCalendar/a_List Of Employees'))
 
 WebUI.setText(findTestObject('Object Repository/Repository Allocation2/Repository_ListOfEmployees/Page_List Of Employees/input_Only free_ITUpTheme_wt46blockwtMainContentwtSearchInput2'), 
     'ana')
