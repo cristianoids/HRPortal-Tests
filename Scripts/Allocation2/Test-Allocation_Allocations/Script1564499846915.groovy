@@ -12,20 +12,25 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
 
-WebUI.setText(findTestObject('Object Repository/Repository_Vacations/Test Vacations/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
+WebUI.setText(findTestObject('Object Repository/Repository Allocation2/Repository_MyAllocation/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
     'ines.peguicha.dev')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Vacations/Test Vacations/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Repository Allocation2/Repository_MyAllocation/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
     'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Repository_Vacations/Test Vacations/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
+WebUI.click(findTestObject('Object Repository/Repository Allocation2/Repository_MyAllocation/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
-WebUI.click(findTestObject('Repository_Vacations/Test Aprove_Requests/Test Vacations/Page_HomePage/span_Vacation'))
+WebUI.click(findTestObject('Object Repository/Repository Allocation2/Repository_MyAllocation/Page_HomePage/div_AllocationManage your projects by easily defining allocation resources Visualize all your projects in a comprehensive way'))
+
+WebUI.click(findTestObject('Object Repository/Repository Allocation2/Repository_MyAllocation/Page_AllocationCalendar/a_List Of Employees'))
+
+WebUI.click(findTestObject('Object Repository/Repository Allocation2/Repository_MyAllocation/Page_List Of Employees/a_Allocation'))
 
 WebUI.closeBrowser()
 

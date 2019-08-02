@@ -15,30 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/')
+WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
 
-WebUI.setText(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 'laura.fidalgo.dev')
+WebUI.setText(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
+    'laura.fidalgo.dev')
 
-WebUI.setEncryptedText(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
+WebUI.setEncryptedText(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
     'Y1Nh4jfnDFCge6QYsO1dtg==')
 
-WebUI.click(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
+WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
 
 WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_HomePage/div_AllocationManage'))
-
-WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/ul_Employee_select2-choices'))
-
-WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/input_label_ITUpTheme_wt148blockwtMainContentwt142'))
-
-WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/ui-autocomplete-item_201801-NOE-TRN'))
-
-WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/a_Ana Reis_select2-search-choice-close'))
-
-WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/input_label_ITUpTheme_wt148blockwtMainContentwt142'))
-
-WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/input_Current Week_ITUpTheme_wt148blockwtMainContentwt8'))
-
-WebUI.click(findTestObject('Repository_Allocation/Repository_AllocationCal/Page_AllocationCalendar/input_label_ITUpTheme_wt148blockwtMainContentwt50'))
 
 WebUI.closeBrowser()
 
