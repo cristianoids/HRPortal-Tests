@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Page_Login/input_Remember login_WebPatterns_wt11bloc
 
 WebUI.click(findTestObject('Repository_Allocation/Repository_Projects/Page_HomePage/div_AllocationManage'))
 
-WebUI.click(findTestObject('Repository_Allocation/Repository_Projects/Page_AllocationCalendar/a_Projects'))
+WebUI.click(findTestObject('Repository_Allocation/Repository_Management/Repository_Projects/Page_AllocationCalendar/a_Projects'))
 
 WebUI.click(findTestObject('Repository_Allocation/Repository_Projects/Page_Projects/input_Create a new Project_ITUpTheme_wt29blockwtMainContentwt45'))
 
