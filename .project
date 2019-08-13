@@ -26,7 +26,42 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1565693572756</id>
+=======
+			<id>1565624531895</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+<<<<<<< HEAD
+			<id>1565624908452</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1565624908547</id>
+=======
+			<id>1565626162792</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1565626162824</id>
+>>>>>>> branch 'master' of https://github.com/cristianoids/HRPotal-Tests.git
+>>>>>>> branch 'master' of https://github.com/cristianoids/HRPotal-Tests.git
 			<name></name>
 			<type>6</type>
 			<matcher>
