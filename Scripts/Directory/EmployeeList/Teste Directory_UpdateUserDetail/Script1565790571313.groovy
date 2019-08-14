@@ -12,6 +12,15 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Directory/EmployeeList/Test Directory_UserDetail'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Directory - Edit Andr Flix/div_NameBirthdayoutsystems'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Directory - Edit Andr Flix/input_Skype'), 'teste')
+
+WebUI.click(findTestObject('Object Repository/Page_Directory - Edit Andr Flix/input_Employee'))
+
+WebUI.closeBrowser()
 
