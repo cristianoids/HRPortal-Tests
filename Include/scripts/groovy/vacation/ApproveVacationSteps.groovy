@@ -1,3 +1,4 @@
+package vacation
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -47,22 +48,22 @@ import cucumber.api.java.en.When
 
 
 class ApproveVacationSteps {
-	
+
 	@Given("User submits a vacation request")
 	def submitVacationRequests(){
 		println("\n I am inside submitVactionRequests")
 	}
-	
+
 	@When("User navigates to pending requests")
 	def navigateToPendingRequests(){
 		println("\n I am inside navigateToPendingRequests")
 	}
-	
+
 	@And("clicks on approve link of that request")
 	def approveRequest(){
 		println("\n I am inside approveRequests")
 	}
-	
+
 	@Then ("the request is approved")
 	def checkRequestStatus(){
 		println("\n I am inside checkRequestStatus")
