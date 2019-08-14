@@ -12,13 +12,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.navigateToUrl('https://internal.itup.pt/Directory/Employee_List.aspx')
-
-WebUI.click(findTestObject('Object Repository/Page_Directory - Employees/div_Andr FlixDeveloperOrg ITUp - Services_2'))
-
-WebUI.click(findTestObject('Object Repository/Page_Directory - Employees/span_Org OSQuay 2_fa fa-fw fa-pencil_1'))
+WebUI.callTestCase(findTestCase('Directory/EmployeeList/Test Directory_UserDetail'), [:], FailureHandling.STOP_ON_FAILURE)
 
