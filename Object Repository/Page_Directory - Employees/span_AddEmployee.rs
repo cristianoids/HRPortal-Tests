@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Directory</name>
+   <name>span_AddEmployee</name>
    <tag></tag>
-   <elementGuidId>2125a43a-bd24-4a55-a292-aa0f9455b876</elementGuidId>
+   <elementGuidId>6c21720b-1197-4265-85ba-d913be61487c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,55 +24,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>Bold</value>
+      <value>ManagementSubMenus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Directory </value>
+      <value>AddEmployee</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt10&quot;)/div[@class=&quot;ThemeGrid_Width8 ThemeGrid_MarginGutter&quot;]/span[@class=&quot;Bold&quot;]</value>
+      <value>id(&quot;ITUpTheme_wt92_block_wtMenu_Menu_HRPortal_wt262_block_RichWidgets_wtManagement4_block_wtMenuSubItems_wt114&quot;)/span[@class=&quot;ManagementSubMenus&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ITUpTheme_wt53_block_wtMainContent_WebPatterns_wt7_block_wtColumn2_wt10']/div/span</value>
+      <value>//a[@id='ITUpTheme_wt92_block_wtMenu_Menu_HRPortal_wt262_block_RichWidgets_wtManagement4_block_wtMenuSubItems_wt114']/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time Sheets'])[1]/following::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Management'])[1]/following::span[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quickly find the details of everyone in your company.'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Org Chart'])[1]/following::span[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assets'])[1]/preceding::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JobTitles'])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organizations'])[1]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div/span</value>
+      <value>//span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -12,24 +12,27 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
+WebUI.navigateToUrl('https://internal.itup.pt/Directory/Employee_Edit.aspx')
 
-WebUI.setText(findTestObject('Object Repository/Repository_Directory/Test AddEmployee/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
-    'ines.peguicha.dev')
+WebUI.setText(findTestObject('Page_Directory - New Employee/input_Name_ITUpTheme_wt151blockwtMainContentwtEmployee_FirstName'), 
+    'teste7')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Directory/Test AddEmployee/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    'aeHFOx8jV/A=')
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Directory - New Employee/select'), '776', true)
 
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test AddEmployee/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Directory - New Employee/select_ (1)'), '772', true)
 
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test AddEmployee/Page_HomePage/span_Directory'))
+WebUI.setText(findTestObject('Object Repository/Page_Directory - New Employee/input_Email'), 'beaa@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test AddEmployee/Page_Directory - Employees/span_Management_Menu_DropDownArrow'))
+WebUI.setText(findTestObject('Page_Directory - New Employee/input_Entry Date_ITUpTheme_wt151blockwtMainContentwtEmployee_EntryDate'), 
+    '2019-02-13')
 
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test AddEmployee/Page_Directory - Employees/span_AddEmployee'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Directory - New Employee/select_-IT'), '4', true)
+
+WebUI.click(findTestObject('Page_Directory - New Employee/input_Required field_ITUpTheme_wt151blockwtMainContentwt110'))
 
 WebUI.closeBrowser()
 
