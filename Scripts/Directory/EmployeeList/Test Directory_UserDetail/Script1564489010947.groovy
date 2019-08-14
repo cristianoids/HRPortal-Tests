@@ -12,24 +12,15 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
+WebUI.navigateToUrl('https://internal.itup.pt/Directory/Employee_List.aspx')
 
-WebUI.setText(findTestObject('Object Repository/Repository_Directory/Test Directory_UserDetail/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
-    'ines.peguicha.dev')
+WebUI.click(findTestObject('Object Repository/Page_Directory - Employees/div_Andr FlixDeveloperOrg ITUp - Services_2'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Directory/Test Directory_UserDetail/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    'aeHFOx8jV/A=')
-
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test Directory_UserDetail/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
-
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test Directory_UserDetail/Page_HomePage/span_Directory'))
-
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test Directory_UserDetail/Page_Directory - Employees/div_Andr FlixDeveloperOrg ITUp - Services'))
-
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test Directory_UserDetail/Page_Directory - Employees/span_Org OSQuay 2_fa fa-fw fa-pencil'))
+WebUI.click(findTestObject('Object Repository/Page_Directory - Employees/span_Org OSQuay 2_fa fa-fw fa-pencil_1'))
 
 WebUI.closeBrowser()
 

@@ -18,12 +18,10 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
 
 WebUI.setText(findTestObject('Repository_Login/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
-    'meri.hayrapetyan.dev')
+    'vera.sa.dev')
 
 WebUI.setEncryptedText(findTestObject('Repository_Login/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    'aeHFOx8jV/A=')
+    'cg8jwKbxrF5lyUjQhNW9xA==')
 
 WebUI.click(findTestObject('Repository_Login/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
-
-WebUI.closeBrowser()
 
