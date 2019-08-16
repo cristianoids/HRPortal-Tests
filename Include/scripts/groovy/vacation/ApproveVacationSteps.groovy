@@ -51,7 +51,7 @@ class ApproveVacationSteps {
 
 	@Given("User submits a vacation request")
 	def submitVacationRequests(){
-		println("\n I am inside submitVactionRequests")
+		println("\n I am inside submitVactionRequests") 
 	}
 
 	@When("User navigates to pending requests")
