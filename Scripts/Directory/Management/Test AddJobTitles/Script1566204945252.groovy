@@ -12,13 +12,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test JobTitles/Page_HomePage/span_Directory'))
-
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test JobTitles/Page_Directory - Employees/span_Management_Menu_DropDownArrow'))
-
-WebUI.click(findTestObject('Object Repository/Page_Directory - Employees/span_JobTitles'))
+WebUI.callTestCase(findTestCase('Directory/Management/Test JobTitles'), [:], FailureHandling.STOP_ON_FAILURE)
 
