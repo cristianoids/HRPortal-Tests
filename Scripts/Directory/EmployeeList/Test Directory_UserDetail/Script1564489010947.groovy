@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Evaluation/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://internal.itup.pt/Directory/Employee_List.aspx')
 
