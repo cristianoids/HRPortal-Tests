@@ -17,5 +17,3 @@ WebUI.acceptAlert()
 
 WebUI.callTestCase(findTestCase('CollectionCelia/Test 2 by Celia'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
-
