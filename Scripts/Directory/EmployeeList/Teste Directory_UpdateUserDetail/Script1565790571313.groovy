@@ -22,5 +22,3 @@ WebUI.setText(findTestObject('Object Repository/Page_Directory - Edit Andr Flix/
 
 WebUI.click(findTestObject('Object Repository/Page_Directory - Edit Andr Flix/input_Employee'))
 
-WebUI.closeBrowser()
-

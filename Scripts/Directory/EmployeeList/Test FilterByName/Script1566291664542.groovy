@@ -12,17 +12,16 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://internal.itup.pt/Menu_HRPortal/')
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.navigateToUrl('https://internal.itup.pt/HRPortal/HomePage.aspx')
 
-WebUI.setText(findTestObject('Repository_Login/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
-    'vera.sa.dev')
+WebUI.click(findTestObject('Object Repository/Page_HomePage/span_Submit and review the time your team members are allocating to each project_fa fa-fw fa-group fa-5x'))
 
-WebUI.setEncryptedText(findTestObject('Repository_Login/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    'cg8jwKbxrF5lyUjQhNW9xA==')
+WebUI.setText(findTestObject('Page_Directory - Employees/input_Organizations_ITUpTheme_wt92blockwtMainContentwtSearchInput'), 
+    'vera')
 
-WebUI.click(findTestObject('Repository_Login/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
-
-WebUI.maximizeWindow()
+WebUI.closeBrowser()
 
