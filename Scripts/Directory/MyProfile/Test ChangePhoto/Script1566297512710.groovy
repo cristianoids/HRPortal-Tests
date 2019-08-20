@@ -13,13 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://internal.itup.pt/Menu_HRPortal/')
-
-WebUI.setText(findTestObject('Repository_Login/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
-    'vera.sa.dev')
-
-WebUI.setEncryptedText(findTestObject('Repository_Login/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    'cg8jwKbxrF5lyUjQhNW9xA==')
-
-WebUI.click(findTestObject('Repository_Login/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
+WebUI.callTestCase(findTestCase('Directory/MyProfile/Test MyProfile'), [:], FailureHandling.STOP_ON_FAILURE)
 

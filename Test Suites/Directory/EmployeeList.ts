@@ -32,6 +32,12 @@
       <guid>d9bcf5f1-6998-44e3-b0ce-4f0ff0f07012</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Directory/EmployeeList/Teste Directory_UpdateUserDetail</testCaseId>
+      <testCaseId>Test Cases/Directory/EmployeeList/Test Directory_UpdateUserDetail</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>627869d0-403f-4931-bf0e-bf48e8767039</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Directory/EmployeeList/Test FilterByName</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
