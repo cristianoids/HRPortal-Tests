@@ -28,4 +28,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Directory/EmployeeList/Test Directory_UserDetail</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d9bcf5f1-6998-44e3-b0ce-4f0ff0f07012</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Directory/EmployeeList/Teste Directory_UpdateUserDetail</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
