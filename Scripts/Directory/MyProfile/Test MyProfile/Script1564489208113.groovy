@@ -13,21 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
-
-WebUI.setText(findTestObject('Object Repository/Repository_Directory/Test MyProfile/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
-    'ines.peguicha.dev')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Directory/Test MyProfile/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    'aeHFOx8jV/A=')
-
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test MyProfile/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Repository_Directory/Test MyProfile/Page_HomePage/span_Directory'))
 
 WebUI.click(findTestObject('Object Repository/Repository_Directory/Test MyProfile/Page_Directory - Employees/span_My Profile_fa fa-fw fa-user'))
-
-WebUI.closeBrowser()
 

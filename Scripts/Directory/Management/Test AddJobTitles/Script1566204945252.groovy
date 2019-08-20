@@ -12,10 +12,16 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Directory/Management/Test JobTitles'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test Directory/Page_HomePage/span_Directory'))
+WebUI.navigateToUrl('https://internal.itup.pt/Directory/JobTitle_List.aspx')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_Directory - Job Titles/a_Add Job Title_1'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Directory - Job Titles/input_Job Title_ITUpTheme_wt4blockwtMainContentwtJobTitleTable_rowsctl34wtJobTitle_Name'), 
+    'Teste')
+
+WebUI.click(findTestObject('Object Repository/Page_Directory - Job Titles/i_Job Title_fa fa-check_1'))
 

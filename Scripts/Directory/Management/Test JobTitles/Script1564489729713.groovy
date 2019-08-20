@@ -12,24 +12,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://internal.itup.pt/Menu_HRPortal/NoPermission.aspx')
-
-WebUI.setText(findTestObject('Object Repository/Repository_Directory/Test JobTitles/Page_Login/input_Remember login_WebPatterns_wt11blockwtUsernamewtUserNameInput'), 
-    'ines.peguicha.dev')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Repository_Directory/Test JobTitles/Page_Login/input_Remember login_WebPatterns_wt11blockwtPasswordwtPasswordInput'), 
-    'aeHFOx8jV/A=')
-
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test JobTitles/Page_Login/input_Remember login_WebPatterns_wt11blockwtActionwtLoginButton'))
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Repository_Directory/Test JobTitles/Page_HomePage/span_Directory'))
 
 WebUI.click(findTestObject('Object Repository/Repository_Directory/Test JobTitles/Page_Directory - Employees/span_Management_Menu_DropDownArrow'))
 
-WebUI.click(findTestObject('Object Repository/Repository_Directory/Test JobTitles/Page_Directory - Employees/span_JobTitles'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_Directory - Employees/span_JobTitles'))
 
